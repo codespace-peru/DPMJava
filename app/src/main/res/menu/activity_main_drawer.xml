@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_basicos"
+            android:icon="@drawable/ic_casino"
+            android:title="Basicos" />
+        <item
+            android:id="@+id/nav_recyclerview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="RecyclerView" />
+        <item
+            android:id="@+id/nav_usuarios"
+            android:icon="@drawable/ic_analytics"
+            android:title="Usuarios" />
+        <item
+            android:id="@+id/nav_cocteles"
+            android:icon="@drawable/ic_apartment"
+            android:title="Cocteles" />
+        <item
+            android:id="@+id/nav_mapas"
+            android:icon="@drawable/ic_casino"
+            android:title="Mapas" />
+        <item
+            android:id="@+id/nav_camara"
+            android:icon="@drawable/ic_camera"
+            android:title="Camara" />
+
+    </group>
+</menu>

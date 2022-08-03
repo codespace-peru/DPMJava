@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_basicos">
+
+    <fragment
+        android:id="@+id/nav_basicos"
+        android:name="com.cmontero.tallerdpmjava.basicos.BasicosFragment"
+        android:label="Basicos"
+        tools:layout="@layout/fragment_basicos" />
+
+    <fragment
+        android:id="@+id/nav_usuarios"
+        android:name="com.cmontero.tallerdpmjava.usuarios.UsuariosFragment"
+        android:label="Usuarios"
+        tools:layout="@layout/fragment_usuarios" />
+
+    <fragment
+        android:id="@+id/nav_recyclerview"
+        android:name="com.cmontero.tallerdpmjava.recyclerview.RecyclerViewFragment"
+        android:label="RecyclerView"
+        tools:layout="@layout/fragment_recyclerview" />
+    <fragment
+        android:id="@+id/newUserFragment"
+        android:name="com.cmontero.tallerdpmjava.usuarios.NewUserFragment"
+        android:label="Usuario"
+        tools:layout="@layout/fragment_newuser" />
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.cmontero.tallerdpmjava.usuarios.DetalleUserFragment"
+        android:label="Detalle de Usuario"
+        tools:layout="@layout/fragment_detalleuser" />
+    <fragment
+        android:id="@+id/nav_cocteles"
+        android:name="com.cmontero.tallerdpmjava.cocteles.CoctelesFragment"
+        android:label="fragment_cocteles"
+        tools:layout="@layout/fragment_cocteles" />
+    <fragment
+        android:id="@+id/nav_mapas"
+        android:name="com.cmontero.tallerdpmjava.mapas.MapasFragment"
+        android:label="fragment_mapas"
+        tools:layout="@layout/fragment_mapas" />
+    <fragment
+        android:id="@+id/nav_camara"
+        android:name="com.cmontero.tallerdpmjava.camara.CamaraFragment"
+        android:label="fragment_camara"
+        tools:layout="@layout/fragment_camara" />
+    <fragment
+        android:id="@+id/detalleCoctelFragment"
+        android:name="com.cmontero.tallerdpmjava.cocteles.DetalleCoctelFragment"
+        android:label="fragment_detallecoctel"
+        tools:layout="@layout/fragment_detallecoctel" />
+</navigation>
